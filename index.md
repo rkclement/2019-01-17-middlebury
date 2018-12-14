@@ -29,22 +29,26 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 
 {% comment %}
-  EVENTBRITE
-
-  This block includes the Eventbrite registration widget if
-  'eventbrite' has been set in the header.  You can delete it if you
-  are not using Eventbrite, or leave it in, since it will not be
-  displayed if the 'eventbrite' field in the header is not set.
+  Registration: this button sends the user to our registration page
 {% endcomment %}
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
-{% endif %}
+<!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_4901333" matches with the above code: jQuery("#s_lc_event_4901333")  //-->
+<a id="s_lc_event_4901333" href="https://middlebury.libcal.com/event/4901333">CLICK AND REGISTER</a>
+<!-- Below is optional element styling  //-->
+<style>
+#s_lc_event_4901333 {
+  background: #255C89;
+  border: 1px solid #255C89;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font: 14px Arial, Helvetica, Verdana;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+#s_lc_event_4901333:hover {
+  opacity: 0.9;
+}
+</style>
+
 
 <h2 id="general">General Information</h2>
 
