@@ -32,7 +32,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Registration: this button sends the user to our registration page
 {% endcomment %}
 <!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_4901333" matches with the above code: jQuery("#s_lc_event_4901333")  //-->
-<a id="s_lc_event_4901333" href="https://middlebury.libcal.com/event/4901333">CLICK AND REGISTER</a>
+<a id="s_lc_event_4901333" href="https://middlebury.libcal.com/event/4901333">REGISTER NOW!</a>
 <!-- Below is optional element styling  //-->
 <style>
 #s_lc_event_4901333 {
@@ -40,7 +40,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   border: 1px solid #255C89;
   border-radius: 4px;
   color: #FFFFFF;
-  font: 14px Arial, Helvetica, Verdana;
+  font: 18px Arial, Helvetica, Verdana;
   padding: 8px 20px;
   cursor: pointer;
 }
@@ -48,6 +48,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   opacity: 0.9;
 }
 </style>
+
 
 
 <h2 id="general">General Information</h2>
