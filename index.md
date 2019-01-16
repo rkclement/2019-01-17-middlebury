@@ -3,7 +3,7 @@ layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"      
 venue: "Middlebury College"
 address: "Goldsmith Lounge, Virtue Field House, Middlebury, VT 05753"
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     
 latlng: "44.003645, -73.177909"      
 humandate: "January 17-18, 2019"
@@ -13,7 +13,7 @@ enddate: 2019-01-18
 instructor: ["Easton R. White", "Ryan Clement"]
 helper: ["TBA"]
 email: ["rclement@middlebury.edu"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: https://pad.carpentries.org/2019-01-17-middlebury             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
