@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"      
-venue: "Middlebury College"
+venue: "Software Carpentry - Middlebury College"
 address: "Goldsmith Lounge, Virtue Field House, Middlebury, VT 05753"
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     
